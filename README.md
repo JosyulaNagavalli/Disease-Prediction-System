@@ -1,27 +1,30 @@
 # 🏥 Disease Prediction System
 
 ## 📌 Overview
-The **Disease Prediction System** is a machine learning-based web application built using **Streamlit** that predicts the likelihood of diseases such as **Diabetes, Heart Disease, and Parkinson’s Disease** based on user input. 
-
-This system helps in early disease detection by analyzing various medical parameters.
+This is a **machine learning-based disease prediction system** that predicts whether a person has **Diabetes, Heart Disease, or Parkinson’s Disease** based on user input. The system is built using **Streamlit** for the frontend and **ML models** for prediction.
 
 ---
 
-## 🚀 Features
-- **Diabetes Prediction:** Predicts whether a person has diabetes based on parameters like glucose level, BMI, insulin, etc.
-- **Heart Disease Prediction:** Determines the likelihood of heart disease based on heart rate, cholesterol, blood pressure, etc.
-- **Parkinson’s Disease Prediction:** Identifies Parkinson’s disease using voice-related features.
-- **User-Friendly UI:** Built using **Streamlit** for an interactive experience.
-- **Machine Learning Models:** Uses trained **ML models** (saved as `.sav` files) for prediction.
+## 📁 Project Structure
+disease_prediction/ │── datasets/ # Contains datasets used for training │ ├── diabetes.csv │ ├── heart.csv │ ├── parkinsons.csv │── training_modules/ # Trained ML models stored as .sav files │ ├── diabetes_model.sav │ ├── heart_model.sav │ ├── parkinson.sav │── web.py # Main Streamlit application │── README.md # Project documentation │── requirements.txt # Dependencies
+
+yaml
+Copy
+Edit
 
 ---
 
-## 🛠️ Tech Stack
-- **Frontend:** Streamlit (Python)
-- **Backend:** Python (Flask for API, if applicable)
-- **Machine Learning:** Scikit-learn, Pandas, NumPy
-- **Model Storage:** Pickle (`.sav` files)
+## 🛠️ Technologies Used
+- **Python 🐍**
+- **Streamlit** (for UI)
+- **Scikit-learn** (for model training)
+- **Pandas & NumPy** (for data processing)
+- **Pickle** (for model storage)
 
 ---
 
-## 📂 Project Structure
+## ⚡ Features
+✔ **Predicts Diabetes, Heart Disease, and Parkinson’s Disease**  
+✔ **User-friendly Streamlit interface**  
+✔ **Models trained on real-world datasets**  
+✔ **Fast and accurate results**  
