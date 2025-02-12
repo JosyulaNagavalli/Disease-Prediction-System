@@ -28,3 +28,37 @@ Edit
 ✔ **User-friendly Streamlit interface**  
 ✔ **Models trained on real-world datasets**  
 ✔ **Fast and accurate results**  
+
+## 🚀 How to Run
+
+### 1️⃣ Clone the repository:
+sh
+git clone (https://github.com/JosyulaNagavalli/Disease-Prediction-System.git)
+cd disease-prediction
+2️⃣ Install dependencies:
+sh
+Copy
+Edit
+pip install -r requirements.txt
+3️⃣ Run the application:
+sh
+Copy
+Edit
+streamlit run web.py
+4️⃣ Enter the required details and get predictions!
+📊 How It Works
+User inputs health parameters
+Pre-trained ML models process the data
+Prediction is displayed on the UI
+🏗 Future Improvements
+✅ Add more diseases
+✅ Improve accuracy with advanced models
+✅ Deploy on cloud platforms
+
+🚀 Enjoy using the Disease Prediction System! 🚀
+
+vbnet
+Copy
+Edit
+
+Let me know if you need any changes! 🚀
