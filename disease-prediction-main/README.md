@@ -35,7 +35,7 @@ Edit
 
 ### 1️⃣ Clone the repository:
 sh
-git clone https://github.com/Akshitha-Mothkur/disease-prediction.git
+git clone https://github.com/JosyulaNagavalli/Disease-Prediction-System/edit/main/disease-prediction.git
 cd disease-prediction
 2️⃣ Install dependencies:
 sh
