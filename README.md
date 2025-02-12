@@ -55,10 +55,4 @@ Prediction is displayed on the UI
 ✅ Improve accuracy with advanced models
 ✅ Deploy on cloud platforms
 
-🚀 Enjoy using the Disease Prediction System! 🚀
 
-vbnet
-Copy
-Edit
-
-Let me know if you need any changes! 🚀
