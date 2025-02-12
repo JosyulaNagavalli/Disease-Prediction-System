@@ -69,7 +69,7 @@ elif selected == 'Heart Disease Prediction':
         user_input = [age, 1 if sex == 'Male' else 0, cp, trestbps, chol, 1 if fbs == 'Yes' else 0,
                       restecg, thalach, 1 if exang == 'Yes' else 0, oldpeak, slope, ca, thal]
         heart_prediction = heart_disease_model.predict([user_input])
-        diagnosis = "The person does not have heart disease" if heart_prediction[0] == 1 else "The person does not have heart disease"
+        diagnosis = "The person has heart disease" if heart_prediction[0] == 1 else "The person does not have heart disease"
         st.success(diagnosis)
 
 elif selected == "Parkinson Disease Prediction":
