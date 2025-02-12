@@ -9,9 +9,9 @@ st.set_page_config(page_title='Disease Prediction System',
 
 st.markdown("<style>body { background-color: #e0f7fa; color: #333; }</style>", unsafe_allow_html=True)
 
-diabetes_model = pickle.load(open(r"C:\Users\VALLI\OneDrive\Desktop\Desktop_2\nothing\disease-prediction-main\training_modules\diabetes_model.sav", 'rb'))
-heart_disease_model = pickle.load(open(r"C:\Users\VALLI\OneDrive\Desktop\Desktop_2\nothing\disease-prediction-main\training_modules\heart_model.sav", 'rb'))
-parkinson_model = pickle.load(open(r"C:\Users\VALLI\OneDrive\Desktop\Desktop_2\nothing\disease-prediction-main\training_modules\parkinson.sav", 'rb'))
+diabetes_model = pickle.load(open(r"C:\Users\VALLI\OneDrive\Desktop\disease-prediction-main\training_modules\diabetes_model.sav", 'rb'))
+heart_disease_model = pickle.load(open(r"C:\Users\VALLI\OneDrive\Desktop\disease-prediction-main\training_modules\heart_model.sav", 'rb'))
+parkinson_model = pickle.load(open(r"C:\Users\VALLI\OneDrive\Desktop\disease-prediction-main\training_modules\parkinson.sav", 'rb'))
 
 st.sidebar.title("🔬 Disease Prediction System")
 st.sidebar.markdown("Select a disease to predict from the options below:")
